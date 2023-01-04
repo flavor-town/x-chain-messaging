@@ -1,0 +1,9 @@
+{
+  "name": "x-chain-messaging",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "postinstall": "forge install && forge remappings > remappings.txt",
+    "format": "forge fmt --check",
+    "test" : "forge test"
+  }
+}
